@@ -7,7 +7,7 @@ export default class Game extends Component {
 		this.state = {
 			xIsNext: true,
 			stepNumber: 0,
-			history: [{ square: Array(9).fill(null) }],
+			history: [{ squares: Array(9).fill(null) }],
 		};
 	}
 	render() {
